@@ -13,7 +13,7 @@ The design includes:
 * **Synchronous reset** and **load seed** functionality
 * **Testbench verification** to ensure correct operation
 
-The accompanying **testbench** (`tb_lfsr.v`) simulates the LFSR behavior and generates a waveform to visualize the output sequence.
+The accompanying **testbench** (`lfsr_16bit_tb.v`) simulates the LFSR behavior and generates a waveform and console output to visualize the results.
 
 ---
 
@@ -24,9 +24,10 @@ The accompanying **testbench** (`tb_lfsr.v`) simulates the LFSR behavior and gen
 ├── src/
 │   └── lfsr_16bit.v          # Verilog source code for LFSR
 ├── testbench/
-│   └── tb_lfsr.v             # Testbench to simulate LFSR
+│   └── lfsr_16bit_tb.v             # Testbench to simulate LFSR
 ├── waveforms/
-│   └── simulation.png         # Simulation waveform
+│   ├── simulation.png         # Simulation waveform
+│   └── console_output.png     # Console output screenshot
 └── README.md                 # Project documentation
 ```
 
@@ -47,6 +48,14 @@ The accompanying **testbench** (`tb_lfsr.v`) simulates the LFSR behavior and gen
 Below is the waveform showing the LFSR output sequence during simulation (Vivado / ModelSim / GTKWave):
 
 ![LFSR Waveform](waveforms/simulation.png)
+
+---
+
+### 🖼️ Console Output
+
+Below is the screenshot of the console output from the LFSR testbench (`tb_lfsr.v`), showing the generated pseudo-random sequence:
+
+![LFSR Console Output](waveforms/console_output.png)
 
 ---
 
@@ -73,7 +82,7 @@ Below is the waveform showing the LFSR output sequence during simulation (Vivado
 * Gained practical experience in **sequential circuit design using Verilog**
 * Learned the principles of **pseudo-random sequence generation**
 * Practiced **writing and running testbenches** for hardware verification
-* Developed skills in **waveform analysis** to validate LFSR operation
+* Developed skills in **waveform and console analysis** to validate LFSR operation
 * Understood **feedback tap selection** for maximal-length sequences
 
 ---
