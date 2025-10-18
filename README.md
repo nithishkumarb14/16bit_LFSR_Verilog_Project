@@ -87,7 +87,7 @@ Below is the waveform showing the LFSR output sequence during simulation (Vivado
 
 ### 👨‍💻 Author
 
-**Nithish Kumar B**
+**NithishKumar B**
 B.E. Electronics and Communication Engineering
 Sri Krishna College of Engineering and Technology
 
@@ -105,6 +105,4 @@ Thanks to open-source HDL simulation tools and FPGA communities for providing gu
 
 ---
 
-If you want, I can **also make a “LinkedIn-ready short version”** of this README that you can post directly with your project screenshot — so it looks professional and concise for social media.
-
-Do you want me to do that next?
+=
