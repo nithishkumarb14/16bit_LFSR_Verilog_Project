@@ -26,7 +26,7 @@ The accompanying **testbench** (`tb_lfsr.v`) simulates the LFSR behavior and gen
 ├── testbench/
 │   └── tb_lfsr.v             # Testbench to simulate LFSR
 ├── waveforms/
-│   └── lfsr_waveform.png     # Simulation waveform
+│   └── simulation.png         # Simulation waveform
 └── README.md                 # Project documentation
 ```
 
@@ -46,9 +46,7 @@ The accompanying **testbench** (`tb_lfsr.v`) simulates the LFSR behavior and gen
 
 Below is the waveform showing the LFSR output sequence during simulation (Vivado / ModelSim / GTKWave):
 
-![LFSR Waveform](waveforms/lfsr_waveform.png)
-
-*(Replace the image path if your file location differs.)*
+![LFSR Waveform](waveforms/simulation.png)
 
 ---
 
@@ -99,5 +97,3 @@ Thanks to open-source HDL simulation tools and FPGA communities for providing gu
 > “Even a simple shift register can produce endless possibilities when combined with the right feedback.”
 
 ---
-
-=
